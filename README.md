@@ -2,6 +2,44 @@
 
 This application analyses data gathered from your site and your competitor's sites and gives you a comparitive report to highlight where you are missing out on providing content that could help you to rank higher in search engine results and therefore convert more customers.
 
+### Table of Contents
+
+- [How it works](#how-it-works)
+	- [Dictionary](#dictionary)
+	- [Site Data](#site-data)
+- [Structure](#structure)
+- [Features](#features)
+	- [Reporting](#reporting)
+	- [Exporting](#exporting)
+	- [Filters](#filters)
+
+## How it works
+
+This tool takes a dictionary of terms that is curated by experts in SEO and specified for a particular industry and compares the terms given in that dictionary to data retrieved from your site and the sites of your competitors. It aims to help highlight where you may be falling short of missing out all together by comparison with your competitors and the search volumes for the keywords defined in the dictionary.
+
+Using this comparison, it can produce a report which is taylored to your site and can be further filtered depending on which information you wish to extract from the large amount of data it is capable of producing.
+
+The reports themselves are both visible online while using the tool and exportable as a `csv` file which can be viewed using any spreadsheet software like Excel.
+
+### Dictionary
+
+A dictionary for a project is the base which the tool uses for it's comparisons. The main element of the dictionary is the keywords and each of these also carries two other valuable pieces of informationwith them, allowing for further ranking and analysis, they are:
+
+- [Topic](#topic)
+- [Search Volume](#search-volume)
+
+#### Topic
+
+This is a way to classify and group keywords together should you wish to look at a group of similar keywords or compare how a certain keyword performs compared to similar or alternative keywords. This can be considered a "sub-category" if the project/product is the "category".
+
+#### Search Volume
+
+This figure shows the relative number of searches made onsearch engines in the given region for the particular keyword it accompanies. Keep in mind that they may change for the same keyword depending on which region the report is for as the dictionary of the project is provided with search volumes **in each** of the given regions.
+
+### Site Data
+
+The site data is unique to the site as it is a record of the content from the entire site. This is what is compared to the dictionary and how the number of matches and types of matches are derived. This data is uploaded by the administrator and can only be altered by them.
+
 ## Structure
 
 The structure of the data analysed and report given is categorised by the following tree:
