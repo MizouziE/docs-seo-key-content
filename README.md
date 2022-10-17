@@ -1,6 +1,7 @@
 # SEO Keyword Content Analysis
 
-This application analyses data gathered from your site and your competitor's sites and gives you a comparitive report to highlight where you are missing out on providing content that could help you to rank higher in search engine results and therefore convert more customers.
+This application analyzes data gathered from your site and your competitor's sites and gives you a comparative report to highlight where you are missing out on providing content that could help you to rank higher in search engine results. 
+This results in your conversion of more customers.
 {: style="text-align: justify"}
 
 ### Table of Contents
@@ -16,10 +17,13 @@ This application analyses data gathered from your site and your competitor's sit
 
 ## How it works
 
-This tool takes a dictionary of terms that is curated by experts in SEO and specified for a particular industry and compares the terms given in that dictionary to data retrieved from your site and the sites of your competitors. It aims to help highlight where you may be falling short of missing out all together by comparison with your competitors and the search volumes for the keywords defined in the dictionary.
+This tool takes a dictionary of terms that is curated by experts in SEO and specified for a particular industry and compares the terms given in that dictionary to data retrieved from your site and the sites of your competitors. 
 {: style="text-align: justify"}
 
-Using this comparison, it can produce a report which is taylored to your site and can be further filtered depending on which information you wish to extract from the large amount of data it is capable of producing.
+It aims to help highlight where you may be falling short or missing out altogether through comparison with your competitors and the search volumes for the keywords defined in the dictionary. 
+{: style="text-align: justify"}
+
+Using this comparison, it can produce a report which is tailored to your site, and can be further filtered depending on which information you wish to extract from the large amount of data it is capable of producing.
 {: style="text-align: justify"}
 
 The reports themselves are both visible online while using the tool and exportable as a `csv` file which can be viewed using any spreadsheet software like Excel.
@@ -27,7 +31,9 @@ The reports themselves are both visible online while using the tool and exportab
 
 ### Dictionary
 
-A dictionary for a project is the base which the tool uses for it's comparisons. The main element of the dictionary is the keywords and each of these also carries two other valuable pieces of informationwith them, allowing for further ranking and analysis, they are:
+A dictionary for a project is the base which the tool uses for it's comparisons.
+
+The main element of the dictionary is the keywords and each of these also carries two other valuable pieces of informationwith them, allowing for further ranking and analysis, they are:
 {: style="text-align: justify"}
 
 - [Topic](#topic)
@@ -35,22 +41,31 @@ A dictionary for a project is the base which the tool uses for it's comparisons.
 
 #### Topic
 
-This is a way to classify and group keywords together should you wish to look at a group of similar keywords or compare how a certain keyword performs compared to similar or alternative keywords. This can be considered a "sub-category" if the project/product is the "category".
+This allows you to classify and group keywords together should you wish to look at a group of similar keywords or compare how a certain keyword performs compared to similar or alternative keywords.
+{: style="text-align: justify"}
+
+This can be considered a "sub-category" if the project/product is the "category".
 {: style="text-align: justify"}
 
 #### Search Volume
 
-This figure shows the relative number of searches made onsearch engines in the given region for the particular keyword it accompanies. Keep in mind that they may change for the same keyword depending on which region the report is for as the dictionary of the project is provided with search volumes **in each** of the given regions.
+This figure shows the relative number of searches made on search engines in the given region for the particular keyword it accompanies.
+{: style="text-align: justify"}
+
+Keep in mind that they may change for the same keyword depending on which region the report is for as the dictionary of the project is provided with search volumes **in each** of the given regions.
 {: style="text-align: justify"}
 
 ### Site Data
 
-The site data is unique to the site as it is a record of the content from the entire site. This is what is compared to the dictionary and how the number of matches and types of matches are derived. This data is uploaded by the administrator and can only be altered by them.
+The site data is unique to the site as it is a record of the content from the entire site. This is what is compared to the dictionary and how the number of matches and types of matches are derived.
+{: style="text-align: justify"}
+
+This data is uploaded by the administrator and can only be altered by them.
 {: style="text-align: justify"}
 
 ## Structure
 
-The structure of the data analysed and report given is categorised by the following tree:
+The structure of the data analyzed and report given is categorized by the following tree:
 1. Brand
 2. Region
 3. Project/Product
@@ -64,7 +79,7 @@ An administrative user has all the abilities of a client user, the only differen
 
 ### Client Users
 
-The client user has permissions to view only their allocated Brand, Projects and Sites. The Sites will already have the region set upon creation and so Region only reflects a filtering method for the client user.
+The client user has permissions to view only their allocated Brand, Projects and Sites. The Sites will already have the region set upon creation and so Region will only reflect a filtering method for the client user.
 {: style="text-align: justify"}
 
 ## Features
@@ -74,12 +89,15 @@ Besides the main feature of displaying and exporting reports of various sites co
 
 ### Reporting
 
+#### Solo Report
 To view a report for a project's main site, click on the button labelled `Solo Report` to the right hand side of the main site on the project's overview.
 {: style="text-align: justify"}
 
+#### Vs Report
 To view a report for a project's main site versus any one of it's competitors, click the button labelled `Vs Report` to the right hand side of the desired competitor site.
 {: style="text-align: justify"}
 
+#### Full Report
 To view a full report that will include the main site versus all available competitors, click the `Full Report` button near the top right hand side of the project's overview.
 {: style="text-align: justify"}
 
@@ -113,7 +131,7 @@ To search for a particular keyword, or keywords containing a particular word, in
 
 #### Topic
 
-The keywords are sub-divided in the dictionary by various topics. Click on the dropdown menu to see the list of available topics for that report. Choose a particular topic by clicking on it. If selected, you will see the chosen topic remaining in the dropdown menu's box.
+The keywords are subdivided in the dictionary by various topics. Click on the dropdown menu to see the list of available topics for that report. Choose a particular topic by clicking on it. If selected, you will see the chosen topic remaining in the dropdown menu's box.
 {: style="text-align: justify"}
 
 #### Only Gaps
@@ -136,7 +154,7 @@ When you click on `Full Report` from the project overview, this option is alread
 
 #### Order By Search Volumes
 
-As the search volumes are an indicator of a particular keyword's value, you can order the report to display keywords with their matches in order of search volume from highest to lowest. To do this, click on the table heading `Search Volumes`.
+Search volumes are an indicator of a particular keyword's value. You can order the report to display keywords with their matches in order of search volume from highest to lowest. To do this, click on the table heading `Search Volumes`.
 {: style="text-align: justify"}
 
 #### Order By Match Count
